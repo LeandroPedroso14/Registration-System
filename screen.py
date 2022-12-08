@@ -12,12 +12,14 @@ class TelaPython:
              [sg.Button('Enviar dados')]
          ]
          #Window
-         window = sg.Window("Cadastro do Produto").layout(layout)
+         self.window = sg.Window("Cadastro do Produto").layout(layout)
 
-         #Data extraction
-         self.button, self.values = window.read()
+         
+         
 
     def Start(self):
+        while True: #Data extraction
+            self.button, self.values = self.window.read()
         Produto = self.values['Produto']
         Conteúdo = self.values['Conteúdo']
         Peso = self.values['Peso']
