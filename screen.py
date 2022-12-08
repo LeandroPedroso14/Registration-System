@@ -6,9 +6,9 @@ class TelaPython:
          layout = [
              [sg.Txt('Produto',size=(10,0)),sg.Input (size=(38,0),key='Produto')],
              [sg.Txt('Conteúdo',size=(10,0)),sg.Input (size=(38,0),key='Conteúdo')],
-             [sg.Txt('Peso'),sg.Input ()],
+             [sg.Txt('Peso',size=(10,0)),sg.Input (size=(38,0),key='Peso')],
              [sg.Txt('Qual o tipo do produto ?')],
-             [sg.Checkbox('Liquido',key='liquido'),sg.Checkbox('Comprimido',key='comprimido'),sg.Checkbox('Pó',key='pó')],
+             [sg.Checkbox('Liquido',key='Liquído'),sg.Checkbox('Comprimido',key='Comprimido'),sg.Checkbox('Pó',key='Pó')],
              [sg.Button('Enviar dados')]
          ]
          #Window
@@ -18,12 +18,12 @@ class TelaPython:
          self.button, self.values = window.read()
 
     def Start(self):
-        Produto = self.values['produto']
-        Conteúdo = self.values['conteudo']
-        Peso = self.values['peso']
-        tipo_liquido = self.values['liquído']
-        tipo_comprimido = self.values['comprimido']
-        tipo_pó = self.values['pó']
+        Produto = self.values['Produto']
+        Conteúdo = self.values['Conteúdo']
+        Peso = self.values['Peso']
+        tipo_liquido = self.values['Liquído']
+        tipo_comprimido = self.values['Comprimido']
+        tipo_pó = self.values['Pó']
         print(f'Prduto:{Produto}')
         print(f'Conteúdo:{Conteúdo}')
         print(f'Peso:{Peso}')
