@@ -13,5 +13,10 @@ class TelaPython:
 
       #Data extraction
       self.button, self.values = window.read()
-      
+
+      def Iniciar(self):
+        print(self.values)
+
+
+
 
