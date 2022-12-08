@@ -18,8 +18,9 @@ class TelaPython:
          
 
     def Start(self):
-        while True: #Data extraction
-            self.button, self.values = self.window.read()
+      while True: 
+            #Data extraction
+        self.button, self.values = self.window.read()
         Produto = self.values['Produto']
         Conteúdo = self.values['Conteúdo']
         Peso = self.values['Peso']
