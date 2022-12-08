@@ -5,6 +5,7 @@ class TelaPython:
         #Layout
          layout = [
              [sg.Txt('Produto'),sg.Input ()],
+             [sg.Txt('Conteúdo'),sg.Input ()],
              [sg.Txt('Peso'),sg.Input ()],
              [sg.Button('Enviar dados')]
          ]
