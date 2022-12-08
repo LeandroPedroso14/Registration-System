@@ -6,7 +6,7 @@ class TelaPython:
       layout = [
         [sg.Txt('Produto'),sg.Input ()],
         [sg.Txt('Peso'),sg.Input ()],
-        [sg.Botton()]
+        [sg.Botton('Enviar dados')]
     ]
       #Window
       window = sg.Window("Cadastro do Produto").layout(layout)
@@ -14,9 +14,10 @@ class TelaPython:
       #Data extraction
       self.button, self.values = window.read()
 
-      def Iniciar(self):
-        print(self.values)
+      def Start(self):
+          print(self.values)
 
-
+tela = TelaPython()
+tela.Start()
 
 
