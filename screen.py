@@ -4,8 +4,8 @@ class TelaPython:
     def __init__(self):
         #Layout
          layout = [
-             [sg.Txt('Produto'),sg.Input ()],
-             [sg.Txt('Conteúdo'),sg.Input ()],
+             [sg.Txt('Produto',size=(10,0)),sg.Input (size=(38,0))],
+             [sg.Txt('Conteúdo',size=(10,0)),sg.Input (size=(38,0))],
              [sg.Txt('Peso'),sg.Input ()],
              [sg.Button('Enviar dados')]
          ]
