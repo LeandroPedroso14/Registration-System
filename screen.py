@@ -10,6 +10,8 @@ class TelaPython:
     ]
       #Window
       window = sg.Window("Cadastro do Produto").layout(layout)
+
+      #Data extraction
+      self.button, self.values = window.read()
       
-    #Data extraction
 
