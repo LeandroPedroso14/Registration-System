@@ -10,7 +10,7 @@ class TelaPython:
              [sg.Txt('Qual o tipo do produto ?')],
              [sg.Checkbox('Liquído',key='Liquído'),sg.Checkbox('Comprimido',key='Comprimido'),sg.Checkbox('Pó',key='Pó')],
              [sg.Button('Enviar dados')]
-             [sg.Output(size=(40,30))]
+             
          ]
          #Window
          self.window = sg.Window("Cadastro do Produto").layout(layout)
