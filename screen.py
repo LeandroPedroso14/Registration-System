@@ -2,8 +2,9 @@ import PySimpleGUI as sg
 
 class TelaPython:
     def __init__(self):
+        sg.change_look_and_feel('dark grey 9')
         #Layout
-         layout = [
+        layout = [
              [sg.Txt('Produto',size=(10,0)),sg.Input (size=(38,0),key='Produto')],
              [sg.Txt('Conteúdo',size=(10,0)),sg.Input (size=(38,0),key='Conteúdo')],
              [sg.Txt('Peso',size=(10,0)),sg.Input (size=(38,0),key='Peso')],
@@ -14,7 +15,7 @@ class TelaPython:
              
          ]
          #Window
-         self.window = sg.Window("Cadastro do Produto").layout(layout)
+        self.window = sg.Window("Cadastro do Produto").layout(layout)
          
          
          
