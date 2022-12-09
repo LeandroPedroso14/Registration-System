@@ -8,18 +8,18 @@ class TelaPython:
              [sg.Txt('Conteúdo',size=(10,0)),sg.Input (size=(38,0),key='Conteúdo')],
              [sg.Txt('Peso',size=(10,0)),sg.Input (size=(38,0),key='Peso')],
              [sg.Txt('Qual o tipo do produto ?')],
-             [sg.Checkbox('Liquido',key='Liquído'),sg.Checkbox('Comprimido',key='Comprimido'),sg.Checkbox('Pó',key='Pó')],
+             [sg.Checkbox('Liquído',key='Liquído'),sg.Checkbox('Comprimido',key='Comprimido'),sg.Checkbox('Pó',key='Pó')],
              [sg.Button('Enviar dados')]
              [sg.Output(size=(40,30))]
          ]
          #Window
          self.window = sg.Window("Cadastro do Produto").layout(layout)
-
+         
          
          
 
     def Start(self):
-        while True: 
+         while True:
             #Data extraction
             self.button, self.values = self.window.read()
             Produto = self.values['Produto']
