@@ -10,6 +10,7 @@ class TelaPython:
              [sg.Txt('Qual o tipo do produto ?')],
              [sg.Checkbox('Liquido',key='Liquído'),sg.Checkbox('Comprimido',key='Comprimido'),sg.Checkbox('Pó',key='Pó')],
              [sg.Button('Enviar dados')]
+             [sg.Output(size=(40,30))]
          ]
          #Window
          self.window = sg.Window("Cadastro do Produto").layout(layout)
@@ -18,21 +19,21 @@ class TelaPython:
          
 
     def Start(self):
-      while True: 
+        while True: 
             #Data extraction
-        self.button, self.values = self.window.read()
-        Produto = self.values['Produto']
-        Conteúdo = self.values['Conteúdo']
-        Peso = self.values['Peso']
-        tipo_liquido = self.values['Liquído']
-        tipo_comprimido = self.values['Comprimido']
-        tipo_pó = self.values['Pó']
-        print(f'Prduto:{Produto}')
-        print(f'Conteúdo:{Conteúdo}')
-        print(f'Peso:{Peso}')
-        print(f'tipo_liquido:{tipo_liquido}')
-        print(f'tipo_comprimido:{tipo_comprimido}')
-        print(f'tipo_pó:{tipo_pó}')
+            self.button, self.values = self.window.read()
+            Produto = self.values['Produto']
+            Conteúdo = self.values['Conteúdo']
+            Peso = self.values['Peso']
+            tipo_liquido = self.values['Liquído']
+            tipo_comprimido = self.values['Comprimido']
+            tipo_pó = self.values['Pó']
+            print(f'Prduto:{Produto}')
+            print(f'Conteúdo:{Conteúdo}')
+            print(f'Peso:{Peso}')
+            print(f'tipo_liquido:{tipo_liquido}')
+            print(f'tipo_comprimido:{tipo_comprimido}')
+            print(f'tipo_pó:{tipo_pó}')
                     
 
 
