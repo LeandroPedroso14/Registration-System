@@ -9,7 +9,8 @@ class TelaPython:
              [sg.Txt('Peso',size=(10,0)),sg.Input (size=(38,0),key='Peso')],
              [sg.Txt('Qual o tipo do produto ?')],
              [sg.Checkbox('Liquído',key='Liquído'),sg.Checkbox('Comprimido',key='Comprimido'),sg.Checkbox('Pó',key='Pó')],
-             [sg.Button('Enviar dados')]
+             [sg.Button('Enviar dados')],
+             [sg.Output(size=(30,20))]
              
          ]
          #Window
