@@ -1,1 +1,3 @@
-# registration-system
+
+<h1 align="center">Registration system</h1>
+
