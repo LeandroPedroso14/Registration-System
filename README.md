@@ -9,3 +9,8 @@ Registration System 📋
 <h2 align="center">
 System information
 </h2>
+
+- Product
+- Contents
+- Weight
+- Type (Liquid, Pill, Dust)
