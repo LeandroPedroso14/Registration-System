@@ -14,3 +14,7 @@ System information
 - Contents
 - Weight
 - Type (Liquid, Pill, Dust)
+
+<h2 align="center">
+Multi-trade designated system
+</h2>
