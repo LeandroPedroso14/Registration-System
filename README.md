@@ -18,3 +18,8 @@ System information
 <h2 align="center">
 Multi-trade designated system
 </h2>
+
+- Pharmacies 💊
+- Markets 🛒
+- Bakeries 🥖
+- Butchers 🥩
