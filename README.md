@@ -40,3 +40,9 @@ Multi-trade designated system
 <h2 align="center">
  🛠 Technologies
 </h2>
+
+Tools used to build this system:
+
+- [Python](https://www.python.org/)
+- [PySimpleGUI](https://www.pysimplegui.org/en/latest/)
+- [VS CODE](https://code.visualstudio.com/)
