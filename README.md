@@ -23,3 +23,10 @@ Multi-trade designated system
 - Markets 🛒
 - Bakeries 🥖
 - Butchers 🥩
+
+<h3>Access my post on linkedin.</h3>
+
+[![Meu linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/leandro-pedroso14_python-desenvolvedor-tech-activity-7006958741778542592-ugqj?utm_source=share&utm_medium=member_desktop)
+
+<br>
+<br>
