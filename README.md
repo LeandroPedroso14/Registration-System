@@ -1,1 +1,1 @@
-# registration-system
+# registration
