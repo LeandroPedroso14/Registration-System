@@ -34,3 +34,9 @@ Multi-trade designated system
 	  Project done 🔃 and completed ✅
 </h4>
 
+<br>
+<br>
+
+<h2 align="center">
+ 🛠 Technologies
+</h2>
